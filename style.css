@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: ghostwhite;
+}
+
+header {
+    padding: 20px;
+    background-color: #6096B4;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EEE9DA;
+} 
+
+ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:  #555;
+    color: white;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #93BFCF;
+    color: white;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.myTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.myTable td, .myTable th {
+    border:  1px solid #ddd;
+    padding: 10px;
+}
+
+.myTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.myTable tr:hover {
+    background-color: #ddd;
+}
+
+.myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
