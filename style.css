@@ -1,11 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: ghostwhite;
+    background-color: #F9F5E7;
 }
 
 header {
     padding: 20px;
-    background-color: #6096B4;
+    background-color: #A7727D;
     color: white;
     text-align: center;
 }
@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #EEE9DA;
+    background-color: #F8EAD8;
 } 
 
 ul li {
@@ -37,8 +37,8 @@ li a:hover{
 footer {
     margin-top: 20px;
     padding: 8px;
-    background-color: #93BFCF;
-    color: white;
+    background-color: #EDDBC7;
+    color: #555;
     text-align: center;
 }
 
